@@ -1,32 +1,32 @@
 # forms-management-service
 
-Microservicio para la gestión de formularios, objetivos, participantes y metodologías.
+Microservice for managing forms, objectives, participants, and methodologies.
 
-## Descripción
-Permite crear, leer, actualizar y eliminar formularios, objetivos, participantes y metodologías. Utiliza FastAPI, SQLAlchemy y Pydantic.
+## Description
+Allows you to create, read, update, and delete forms, objectives, participants, and methodologies. Uses FastAPI, SQLAlchemy, and Pydantic.
 
-## Estructura principal
-- `app/main.py`: Endpoints de la API.
-- `app/models.py`: Modelos ORM.
-- `app/schemas.py`: Esquemas de validación.
-- `app/crud.py`: Lógica CRUD.
-- `app/database.py`: Conexión a la base de datos.
+## Main Structure
+- `app/main.py`: API endpoints.
+- `app/models.py`: ORM models.
+- `app/schemas.py`: Validation schemas.
+- `app/crud.py`: CRUD logic.
+- `app/database.py`: Database connection.
 
-## Instalación y ejecución
-1. Instala dependencias:
+## Installation and Execution
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Ejecuta el microservicio:
+2. Run the microservice:
    ```bash
    uvicorn app.main:app --reload
    ```
 
-## Variables importantes
-- `DATABASE_URL`: Cadena de conexión a PostgreSQL.
+## Important Variables
+- `DATABASE_URL`: PostgreSQL connection string.
 
 ---
 
-# English
+# Español
 
-Microservice for managing forms, objectives, participants, and methodologies. Provides CRUD operations. See code comments for details.
+Microservicio para la gestión de formularios, objetivos, participantes y metodologías. Proporciona operaciones CRUD. Consulta los comentarios en el código para más detalles.
